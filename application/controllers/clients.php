@@ -12,6 +12,7 @@ class Clients extends CI_Controller {
 
 	public function index()
 	{
+		
 		$data['clients'] = $this->clients_model->get_clients();
 		$data['nome'] ='Clients INDEX';
 
