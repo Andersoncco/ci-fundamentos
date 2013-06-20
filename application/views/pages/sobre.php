@@ -1,11 +1,12 @@
 
+<h1>História da nossa loja</h1>
 
 <p>A História da Conservas Oderich começa em 1879, com a chegada de Adolfo Oderich no Brasil.
  Natural da cidade de Wittenburg, na Alemanha, o jovem de 22 anos havia estudado técnicas comerciais
   e ao ser convidado por uma empresa exportadora de Hamburg, aceitou a proposta de trabalho e emigrou
    para o Rio Grande do Sul.</p>
 
-   <?php echo img('assets/images/oderich.jpg');?>
+   <?php echo img('assets/images/pequenas/fachada.jpg');?>
 
 <p>Era o final do século e o cenário nas colônias de imigração alemã e italiana era de grande prosperidade.
  O porto fluvial de Caí, entre Porto Alegre e a região da serra gaúcha, dinamizava a distribuição 
@@ -19,4 +20,6 @@
 filho mais velho de Adolfo, retornou ao Brasil após três anos de estudos na Alemanha, trazendo o 
 conhecimento da conservação de carnes.</p>
 
-
+		<a href='#' shape='rect'>
+        	<img alt='Subir Página' border='0' src='assets/images/pequenas/flecha.png' style='position: fixed; bottom:0; right:0;'/>
+        </a>

@@ -1,10 +1,40 @@
-<html>
-<head>
-	<title>403 Forbidden</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Geração Informatica</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
 
-<p>Directory access is forbidden.</p>
+       
 
-</body>
+    </head>
+       <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <body>
+        <body text="white";>
+        <body vlink="red";>
+        <body alink="blue";>
+
+        <div class="container">
+
+            <article>
+               
+                
+                <?php
+
+                if (isset($_GET['pagina'])) {
+                    if (file_exists("paginas/$_GET[pagina].php")){
+                        include "paginas/$_GET[pagina].php";
+                    } else {
+                        include "404.html"; 
+                    }
+                } else {
+                    include "paginas/home.php";
+                }
+               ?>
+            
+            </footer>
+        </div>
+    </body>
 </html>
